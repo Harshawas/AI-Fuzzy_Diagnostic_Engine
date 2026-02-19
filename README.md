@@ -1,5 +1,7 @@
 AI Clinical Triage & Disease Diagnostic Engine
 
+🚀 Live Application: [Access the Cloud Deployment Here](https://ai-fuzzy-diagnostic-engine.onrender.com)
+
 Overview
 
 This project is a fully distributed Web Application that utilizes a Type-1 Mamdani Fuzzy Inference System (FIS) to diagnose clinical respiratory and viral diseases based on patient vitals and symptoms.
@@ -10,7 +12,9 @@ Engineering Architecture
 
 Frontend: HTML5, Tailwind CSS, Client-Side PDF Generation (html2pdf.js).
 
-Backend: Python Flask API.
+Backend: Python Flask API deployed via Gunicorn WSGI.
+
+Cloud Infrastructure: Hosted on Render.com with CI/CD linked to GitHub.
 
 Math Engine: pyit2fls, numpy (Trapezoidal Membership Functions, Centroid Defuzzification).
 
@@ -50,7 +54,7 @@ Typhoid
 
 Malaria
 
-Installation & Execution
+Local Installation & Execution
 
 Clone the repository.
 
@@ -59,7 +63,7 @@ Install the mathematical dependencies:
 pip install -r requirements.txt
 
 
-Run the Flask server:
+Run the local Flask server:
 
 python app.py
 
