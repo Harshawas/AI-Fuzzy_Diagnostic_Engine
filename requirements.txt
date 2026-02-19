@@ -1,3 +1,4 @@
 Flask==3.0.0
 numpy==1.26.2
 pyit2fls==0.7.2
+gunicorn==21.2.0
